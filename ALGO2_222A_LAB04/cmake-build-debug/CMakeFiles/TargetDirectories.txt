@@ -1,0 +1,3 @@
+/Users/vladimirmarancuk/CLionProjects/ALGO2_222A_LAB03/cmake-build-debug/CMakeFiles/ALGO2_222A_LAB03.dir
+/Users/vladimirmarancuk/CLionProjects/ALGO2_222A_LAB03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vladimirmarancuk/CLionProjects/ALGO2_222A_LAB03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
