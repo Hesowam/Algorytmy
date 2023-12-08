@@ -35,20 +35,7 @@ private:
         heap->operator[](second_index) = first_v;
     }
 
-public:
-    binary_heap() {
-        heap = new dynamic_array<V>;
-    }
-
-    static bool greaterThan(V a, V b) {
-        return a > b;
-    }
-
-    static bool lessThan(V a, V b) {
-        return a < b;
-    }
-
-    void heapify_up(int index, bool (*comparisonFunction)(V, V)) {
+  void heapify_up(int index, bool (*comparisonFunction)(V, V)) {
         if (index <= 0) return;
         if (comparisonFunction(heap->operator[](index), heap->operator[](calculate_parent(index)))) {
             swap(index, calculate_parent(index));
@@ -69,6 +56,18 @@ public:
             swap(right_child, index);
             heapify_down(right_child, comparisonFunction);
         }
+    }
+public:
+    binary_heap() {
+        heap = new dynamic_array<V>;
+    }
+
+    static bool greaterThan(V a, V b) {
+        return a > b;
+    }
+
+    static bool lessThan(V a, V b) {
+        return a < b;
     }
 
     void insert(V value, bool (*comparisonFunction)(V, V)) {
