@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td>7</td>
-    <td>Sorting by mounding, by counting, and by bucketing</td>
+    <td>Heapsort, counting sort, bucket sort</td>
     <td><a href="http://wikizmsi.zut.edu.pl/uploads/e/e0/Pklesk_counting_sorts.pdf" target="_blank">(PDF)</a></td>
   </tr>
   <tr>
