@@ -1,6 +1,22 @@
+# Algorithms 2
 
+The repository includes a series of laboratory works, each focusing on different aspects of algorithms. Below is a list of the topics covered:
 
-## Algorithms 2
+1. **List**: Understanding and implementing list data structures.
+2. **Dynamic Array**: Exploration of dynamic arrays and their applications.
+3. **BST Tree**: Binary Search Tree implementation and operations.
+4. **Red-Black Tree**: Learning about Red-Black Trees and their properties.
+5. **Hash Table**: Implementing and using hash tables.
+6. **Binary Heap**: Study and implementation of binary heaps.
+7. **Sorting Algorithms**: Focus on Heapsort, Counting Sort, and Bucket Sort.
+8. **Graph Algorithms**: Kruskal's algorithm and Union-Find structure.
+9. **Convex Hull**: Understanding Convex Shell and Graham's algorithm.
+10. **Fast Fourier Transform**: An introduction to FFT and its applications.
+
+Each laboratory work is accompanied by detailed instructions and resources to facilitate learning and implementation.
+
+## Resources
+For more detailed information and resources related to the laboratory works, visit [this link](http://wikizmsi.zut.edu.pl/wiki/A2/L?imoppppppphlfcba).
 
 <div align="center">
 <table>
