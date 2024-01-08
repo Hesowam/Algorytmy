@@ -1,0 +1,35 @@
+digraph {
+layout=neato;
+node [fontcolor="blue"]
+node [label="\N", width="0.2", height="0.2", margin="0.01"];
+label="scale x10";
+8 [fontsize="12", pos="4.50786,0.570559!", shape=circle];
+5 [fontsize="12", pos="9.88508,1.1908!", shape=plaintext];
+2 [fontsize="12", pos="8.22838,1.74129!", shape=plaintext];
+7 [fontsize="12", pos="6.01764,1.66249!", shape=plaintext];
+3 [fontsize="12", pos="7.10495,3.03986!", shape=plaintext];
+13 [fontsize="12", pos="9.96796,6.11493!", shape=plaintext];
+9 [fontsize="12", pos="7.83319,5.19876!", shape=plaintext];
+12 [fontsize="12", pos="8.6222,7.79658!", shape=plaintext];
+10 [fontsize="12", pos="8.75968,9.559!", shape=plaintext];
+1 [fontsize="12", pos="5.85006,3.50308!", shape=plaintext];
+11 [fontsize="12", pos="5.39342,4.62074!", shape=plaintext];
+17 [fontsize="12", pos="5.87912,8.37608!", shape=plaintext];
+18 [fontsize="12", pos="4.84931,7.43728!", shape=plaintext];
+19 [fontsize="12", pos="4.57976,7.44419!", shape=plaintext];
+15 [fontsize="12", pos="3.75857,6.77187!", shape=plaintext];
+14 [fontsize="12", pos="2.66214,8.40119!", shape=plaintext];
+6 [fontsize="12", pos="0.0892266,5.31664!", shape=plaintext];
+16 [fontsize="12", pos="0.088171,2.75887!", shape=plaintext];
+0 [fontsize="12", pos="0.0126842,1.93323!", shape=plaintext];
+4 [fontsize="12", pos="0.914113,1.47313!", shape=plaintext];
+8 -> 5 [color="red"];
+5 -> 13 [color="red"];
+13 -> 10 [color="red"];
+10 -> 14 [color="red"];
+14 -> 6 [color="red"];
+6 -> 0 [color="red"];
+0 -> 4 [color="red"];
+4 -> 8 [color="red"];
+
+}
