@@ -32,7 +32,6 @@ The additional goal is to measure the computational complexity of operations on 
 - Memory management should be handled appropriately.
 - Consider who is responsible for freeing the memory associated with the stored data (either the list or external places where data is created).
 - The main function should include an experiment that involves adding elements to the list, searching, and deleting random data with time measurements.
-- The code should be sent for anti-plagiarism checks to algo2@zut.edu.pl following specific naming and format guidelines.
-
+  
 ## Main Function Experiment
 The main experiment involves adding an increasing number of elements to the list, performing searches and deletions, and measuring the time.
